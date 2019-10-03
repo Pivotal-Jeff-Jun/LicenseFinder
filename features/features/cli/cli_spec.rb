@@ -136,7 +136,6 @@ describe 'License Finder command line executable' do
           expect(developer).to be_seeing_something_like %r{\"#{Regexp.escape(@project.project_dir.to_s)}/multi-module-gradle/module1/module4/src/github.com/pivotal/foo\"}
         end
       end
-
     end
 
     context 'without flags' do
